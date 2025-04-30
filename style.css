@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+header{
+
+    height: 100%;
+    min-width: 100vw;
+    position: relative;
+   
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    gap: 1rem;
+    position: relative;
+    z-index: 1;
+    background: transparent;
+    color: white;
+}
+
+
+
+.nav-link{
+    color: white !important;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.navbar-nav{
+    margin-right: 1.3rem;
+    gap: 2rem;
+}
+
+.food-search{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+    background: transparent;
+    margin-left: 2rem;
+    
+}
+
+.search-button{
+    background: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.search-button i {
+    font-size: 25px;
+    transition: color 0.3s ease;
+}
+
+
+.search-button:hover i {
+    color: #f4b350;
+}
+
+
+.form-search{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 1rem;
+    top: calc(100% + 15px);
+    right: 10px;
+    width: 250px;
+    visibility: hidden;
+    opacity: 0;
+    padding:4px;
+    background: #f4b350;
+    border-radius: 10px;
+   transform: translateY(-10px);
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    z-index: 1000;
+}
+
+.active{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+  
+}
+
+.form-search input{
+    flex: 1;
+    padding: 8px 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+   color: black;
+   border: 2px solid #f4b350;
+}
+
+.form-search input:focus {
+    border-color: #ffffff;
+    outline: none;
+}
+
+
+.form-search button{
+font-size: 25px;
+ padding: 10px;
+ background: none;
+ border: none;
+ color: white;
+ height: 100%;
+ transition: color 0.3s ease;
+}
+
+.form-search button:hover{
+ color: black;
+ 
+}
+
+.header-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-contant{
+ position: absolute;
+ right: 0;
+ top: 30%;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ margin: 0 auto;
+ gap: 1rem;
+ color: white;
+   
+}
+
+.header-content-title{
+    font-size: 6rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+.header-content-text{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    
+}
