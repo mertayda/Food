@@ -1,78 +1,121 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Georgian:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-</head>
-<body class="">
-    <header class="header-container bg-dark">
-      
-    <nav class="navbar navbar-expand-lg "> 
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/all.min.css">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Georgian:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   </head>
+   <body class="">
+      <header class="position-relative bg-dark">
+         <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+               <a class="navbar-brand" href="#">
+               <img src="assets/images/logo.png" alt="" width="200">
+               </a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-auto navbar">
+                     <li class="nav-item">
+                        <a class="nav-link" href="#anasayfa">Anasayfa</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#anasayfa">Menüler</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#anasayfa">Hakkımızda</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#anasayfa">iletişim</a>
+                     </li>
+                  </ul>
+               </div>
+               <div  class="food-search">
+                  <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                  <form class="form-search">
+                     <input type="search" placeholder="Lezzetler Burda">
+                     <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                  </form>
+               </div>
+            </div>
+         </nav>
+  
+  
+            <img  class="header-img" src="assets/images/pasta-1.jpg" alt="">  
+        
+         <div class="header-content">
+            <h1 class="header-content-title text-warning">
+               Lezzet ve Kalite Bir Arada
+            </h1>
+            <p class="header-content-text ">En taze malzemelerle hazırlanan özel menülerimiz ile sizi benzersiz bir lezzet yolculuğuna çıkarıyoruz</p>
+            <button class="btn btn-warning">Şimdi Sipariş ver</button>
+         </div>
+    
+      </header>
+      <script src="assets/js/bootstrap.bundle.min.js"></script>
+      <script src="main.js"></script>
+      <section class="best-seller pt-5">
         <div class="container">
-         <a class="navbar-brand" href="#">
-            <img src="assets/images/logo.png" alt="" width="200">
-         </a>
-         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto navbar">
-                <li class="nav-item">
-                    <a class="nav-link" href="#anasayfa">Anasayfa</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#anasayfa">Menüler</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#anasayfa">Hakkımızda</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#anasayfa">iletişim</a>
-                </li>
-               
-           
-            </ul>
-         </div>
-         <div  class="food-search">
-          
-         
-                <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
-                <form class="form-search">
-                    <input type="search" placeholder="Lezzetler Burda">
-                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </form>
-           
-         </div>
-       
+            <div class="row ">
+                 <div class="row text-center">
+                    <div class="col-12 ">
+                        <h1 class="italic-font fs-1 fw-bold">En Çok Satanlar</h1>
+                    </div>
+
+                 </div>
+                 <div class="row text-center">
+                    <div class="col-12">
+                        <p class="fs-5 ">Müşterilerimiz Favorilerleri</p>
+                    </div>
+                 </div>
+                 <div class="row seller-carousel">
+                    <div class="col-12 col-md-8 col-lg-4 carousel-slider">
+                        <div class="best-seller-card">
+                            <img  src="assets/images/pasta-1.jpg" alt="">
+                            <h1 class="italic-font">Fettucine Alfredo</h1>
+                            <p class="text-center">Kremalı sos ve parmesan peyniriyle hazırlanan klasik bir İtalyan makarnası.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-4 carousel-slider">
+                        <div class="best-seller-card">
+                            <img class="rounded-circle" src="assets/images/pasta-2.jpg" alt="">
+                            <h1 class="italic-font">Penne Arabiata</h1>
+                            <p class="text-center">Baharatlı domates sosuyla hazırlanan, acı severler için ideal bir penne makarna.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-4 carousel-slider">
+                        <div class="best-seller-card">
+                            <img  src="assets/images/pasta-3.jpg" alt="">
+                            <h1 class="italic-font">Tagliatelle Bolognese</h1>
+                            <p class="text-center">Zengin etli bolonez sosuyla servis edilen geleneksel tagliatelle makarnası.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-4 carousel-slider">
+                        <div class="best-seller-card">
+                            <img  src="assets/images/pasta-3.jpg" alt="">
+                            <h1 class="italic-font">Tagliatelle Bolognese</h1>
+                            <p class="text-center">Zengin etli bolonez sosuyla servis edilen geleneksel tagliatelle makarnası.</p>
+                        </div>
+                    </div>     <div class="col-12 col-md-8 col-lg-4 carousel-slider">
+                        <div class="best-seller-card">
+                            <img  src="assets/images/pasta-3.jpg" alt="">
+                            <h1 class="italic-font">Tagliatelle Bolognese</h1>
+                            <p class="text-center">Zengin etli bolonez sosuyla servis edilen geleneksel tagliatelle makarnası.</p>
+                        </div>
+                    </div>
+                    <div class="prev btn">prev</div>
+                    <div class="next btn">next</div>
+                 </div>
+            </div>
         </div>
-    </nav>
-    <div class="header-img">
-        <img src="assets/images/pasta-1.jpg" alt="">  
-  </div>
-
-  <div class="header-contant container">
-    <h1 class="header-content-title text-warning ">
-        Lezzet ve Kalite Bir Arada
-    </h1>
-    <p class="header-content-text w-50">En taze malzemelerle hazırlanan özel menülerimiz ile sizi benzersiz bir lezzet yolculuğuna çıkarıyoruz</p>
-   
-    <button class="btn btn-warning">Şimdi Sipariş ver</button>
-  </div>
-
-</header>
-
-
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="main.js"></script>
-</body>
+      </section>
+   </body>
 </html>
