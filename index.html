@@ -8,7 +8,6 @@
       <link rel="stylesheet" href="style.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Georgian:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
    </head>
@@ -19,9 +18,9 @@
                <a class="navbar-brand" href="#">
                <img src="assets/images/logo.png" alt="" width="200">
                </a>
-               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-               <span class="navbar-toggler-icon"></span>
-               </button>
+               <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
                <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav ms-auto navbar">
                      <li class="nav-item">
@@ -38,7 +37,7 @@
                      </li>
                   </ul>
                </div>
-               <div  class="food-search">
+               <div class="food-search">
                   <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
                   <form class="form-search">
                      <input type="search" placeholder="Lezzetler Burda">
@@ -63,7 +62,7 @@
             <div class="row ">
                <div class="row text-center">
                   <div class="col-12 ">
-                     <h1 class="italic-font fs-1 fw-bold">En Çok Satanlar</h1>
+                     <h1 class="italic-font header-1 fw-bold">En Çok Satanlar</h1>
                   </div>
                </div>
                <div class="row text-center">
@@ -97,25 +96,272 @@
             </div>
          </div>
       </section>
-      <section class="special-tastes bg-black">
+      <section class="today-special">
+   
          <div class="container">
-            <div class="row align-items-center gy-5">
-               <div class="col-12 col-md-6">
-                  <div class="d-flex flex-column  align-items-start gap-4">
+            <h1 class="italic-font header-1 text-center mb-3">Bugünün Özeli</h1>
+            <p class="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, laboriosam excepturi aliquid quidem voluptatem ratione atque unde autem aperiam earum cumque, ex facere optio sint eveniet, delectus dicta! Aliquid, quis.</p>
+            <div class="today-special-box">
+               <div class="food-post">
+                  <img  class="food-img" src="assets/images/small-1.jpg" alt="">
+               </div>
+               <div class="food-post">
+                  <div class="food-content">
+                     <h1>Spagetti Bolonez</h1>
+                     <p>Kıymalı, domates soslu klasik İtalyan lezzeti</p>
+                     <span>20</span>
+                 
+                  </div>
+               </div>
+               <div class="food-post">
+                  <img class="food-img" src="assets/images/small-2.jpg" alt="">
+               </div>
+               <div class="food-post">
+                  <div class="food-content">
+                     <h1>Penne Arrabbiata</h1>
+                     <p>Acı biberli, domates soslu, baharatlı makarna.</p>
+                     <span>20₺</span>
+                
+                  </div>
+               </div>
+               <div class="food-post">
+                  <div class="food-content">
+                     <h1>Tortellini Pesto</h1>
+                     <p>Pesto soslu, dolgulu İtalyan makarnası.</p>
+                     <span>20₺</span>
+               
+                  </div>
+               </div>
+               <div class="food-post">
+                  <img class="food-img" src="assets/images/small-3.jpg" alt="">
+               </div>
+               <div class="food-post">
+                  <div class="food-content">
+                     <h1>Fettuccine Alfredo</h1>
+                     <p>Kremalı, parmesan peynirli, doyurucu lezzet.</p>
+                     <span>20₺</span>
+               
+                  </div>
+               </div>
+               <div class="food-post">
+                  <img class="food-img" src="assets/images/small-4.jpg" alt="">
+               </div>
+            
+               
+              
+            </div>
+         </div>
+      </section>
+
+      <section class="menu">
+         <div class="container">
+             <h1 class="italic-font header-1 text-center">Menu</h1>
+             <p class="text-center mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem nihil minima perferendis soluta id harum maiores perspiciatis, odio voluptatem praesentium aperiam doloremque in corporis animi ducimus explicabo fugiat nostrum sit.</p>
+             <div class="row">
+                 <div class="col-12  col-md-3">
+                     <ul class="nav d-flex flex-column  shadow gap-3">
+                         <li class="nav-item"><a class="menu-nav-link nav-link active" href="#makarna" data-category="makarna" >Makarna</a></li>
+                         <li class="nav-item"><a class="menu-nav-link nav-link active" href="#peynirli" data-category="peynirli">Peynirli Makarna</a></li>
+                         <li class="nav-item"><a class="menu-nav-link nav-link active" href="#ozel" data-category="özelsos">Özel soslu Makarna</a></li>
+                         <li class="nav-item"><a class="menu-nav-link nav-link active" href="#special" data-category="special">Special Makarna</a></li>
+                     </ul>
+                 </div>
+                 <div class="col-12 col-md-9">
+                     <!-- Makarna-->
+                     <div id="makarna" class="category-content active">
+                         <h1>Makarna</h1>
+                         <p class="fs-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic tempora pariatur quae magni dicta natus incidunt molestiae odio veritatis excepturi. Similique blanditiis consequuntur quibusdam velit debitis omnis rerum nulla vero!</p>
+                         
+                         <div class="row">
+                             <div class="d-flex justify-content-between">
+                                 <h2>Classic Spaghetti</h2>
+                                 <span>$12</span>
+                             </div>
+                             <div>
+                                 <p>Ev yapımı domates soslu ve taze fesleğenli geleneksel İtalyan spagettisi</p>
+                             </div>
+                         </div>
+                         <div class="row">
+                             <div class="d-flex justify-content-between">
+                                 <h2>Penne Arrabbiata</h2>
+                                 <span>$14</span>
+                             </div>
+                             <div>
+                                 <p>Sarımsak, kırmızı biber ve zeytinyağı ile hazırlanan acılı penne makarna</p>
+                             </div>
+                         </div>
+                         <div class="row">
+                             <div class="d-flex justify-content-between">
+                                 <h2>Fettuccine Alfredo</h2>
+                                 <span>$15</span>
+                             </div>
+                             <div>
+                                 <p>Tereyağı, krema ve parmesan peyniri ile yapılan kremalı fettuccine</p>
+                             </div>
+                         </div>
+                         <div class="row">
+                             <div class="d-flex justify-content-between">
+                                 <h2>Linguine Alla Vongole</h2>
+                                 <span>$18</span>
+                             </div>
+                             <div>
+                                 <p>Beyaz şarap ve sarımsak sosunda midye ile servis edilen linguine</p>
+                             </div>
+                         </div>
+                     </div>
+                     
+                  <!-- Peynirli Makarna-->
+                     <div id="peynirli" class="category-content">
+                         <h1>Peynirli Makarna</h1>
+                         <p class="fs-5">En kaliteli peynirlerle hazırlanan özel makarna çeşitlerimiz. Her lokmada farklı peynir aromaları keşfedin.</p>
+                         
+                         <div class="row">
+                             <div class="d-flex justify-content-between">
+                                 <h2>Four Cheese Pasta</h2>
+                                 <span>$16</span>
+                             </div>
+                             <div>
+                                 <p>Gorgonzola, mozzarella, parmesan ve ricotta peyniri ile hazırlanan özel makarna</p>
+                             </div>
+                         </div>
+                         <div class="row">
+                             <div class="d-flex justify-content-between">
+                                 <h2>Mac & Cheese Deluxe</h2>
+                                 <span>$14</span>
+                             </div>
+                             <div>
+                                 <p>Cheddar peyniri ve çıtır ekmek kırıntısı ile Amerika'nın klasik tarifi</p>
+                             </div>
+                         </div>
+                         <div class="row">
+                             <div class="d-flex justify-content-between">
+                                 <h2>Truffle Cheese Linguine</h2>
+                                 <span>$22</span>
+                             </div>
+                             <div>
+                                 <p>Trüf mantarı yağı, pecorino peyniri ve taze otlar ile lüks linguine</p>
+                             </div>
+                         </div>
+                         <div class="row">
+                             <div class="d-flex justify-content-between">
+                                 <h2>Gorgonzola Gnocchi</h2>
+                                 <span>$18</span>
+                             </div>
+                             <div>
+                                 <p>El yapımı patates gnocchi, gorgonzola kreması ve kavrulmuş ceviz</p>
+                             </div>
+                         </div>
+                     </div>
+                     
+                    <!-- Özelsoslu Makarna-->
+                     <div id="özelsos" class="category-content">
+                         <h1>Özel Soslu Makarna</h1>
+                         <p class="intro-text">Şefimizin gizli tarifleriyle hazırlanan, sadece restoranımıza özel soslar ve makarna çeşitleri.</p>
+                         
+                         <div class="row">
+                             <div class="d-flex justify-content-between">
+                                 <h2>Chef's Secret Pasta</h2>
+                                 <span>$20</span>
+                             </div>
+                             <div>
+                                 <p>12 baharat ve 8 saat pişirilen özel domatesli sos ile hazırlanan eşsiz makarna</p>
+                             </div>
+                         </div>
+                         <div class="row">
+                             <div class="d-flex justify-content-between">
+                                 <h2>Mediterranean Fusion</h2>
+                                 <span>$19</span>
+                             </div>
+                             <div>
+                                 <p>Kurutulmuş domates, zeytin, kapari ve özel baharatlar ile Akdeniz esintisi</p>
+                             </div>
+                         </div>
+                         <div class="row">
+                             <div class="d-flex justify-content-between">
+                                 <h2>Pesto Rosso Special</h2>
+                                 <span>17</span>
+                             </div>
+                             <div>
+                                 <p>Kırmızı pesto, çam fıstığı ve kurutulmuş domates ile özel tarif</p>
+                             </div>
+                         </div>
+                         <div class="row">
+                             <div class="d-flex justify-content-between">
+                                 <h2>Spicy Dragon Pasta</h2>
+                                 <span>$21</span>
+                             </div>
+                             <div>
+                                 <p>Uzak doğu baharatları, soya sosu ve susamlı acılı sos ile füzyon makarna</p>
+                             </div>
+                         </div>
+                     </div>
+                     
+                 
+                     <div id="special" class="category-content">
+                         <h1>Special Makarna</h1>
+                         <p class="fs-5">Gurme mutfağının en seçkin malzemeleriyle hazırlanan, özel günler için lüks makarna seçenekleri.</p>
+                         
+                         <div class="row">
+                             <div class="d-flex justify-content-between">
+                                 <h2>Lobster Linguine</h2>
+                                 <span>$38</span>
+                             </div>
+                             <div>
+                                 <p>Taze ıstakoz, kiraz domates ve beyaz şarap sosunda linguine</p>
+                             </div>
+                         </div>
+                         <div class="row">
+                             <div class="d-flex justify-content-between">
+                                 <h2>Wagyu Beef Pappardelle</h2>
+                                 <span>$42</span>
+                             </div>
+                             <div>
+                                 <p>12 saat pişirilmiş wagyu dana eti ve kırmızı şarap sosu ile geniş makarna</p>
+                             </div>
+                         </div>
+                         <div class="row">
+                             <div class="d-flex justify-content-between">
+                                 <h2>Black Truffle Tagliatelle</h2>
+                                 <span>$45</span>
+                             </div>
+                             <div>
+                                 <p>Taze siyah trüf mantarı, trüf yağı ve parmesan ile el yapımı tagliatelle</p>
+                             </div>
+                         </div>
+                         <div class="row">
+                             <div class="d-flex justify-content-between">
+                                 <h2>Golden Seafood Risotto</h2>
+                                 <span>$48</span>
+                             </div>
+                             <div>
+                                 <p>Safran, deniz ürünleri ve 24 ayar altın yaprak ile özel risotto</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+
+      <section class="special-tastes bg-black">
+         <div class="container  d-flex flex-column gap-5">
+            <div class="row my-5">
+               <div class="col-12 col-md-7">
+                  <div class="d-flex flex-column align-items-start text-start gap-4">
                      <h1 class="italic-font text-warning header-1 special-tastes-title">Geleneksel Lezzet</h1>
                      <p class="text-white fs-4">Asırlık tariflerimizle harmanlanmış, yöresel malzemelerle hazırlanan otantik tatlar sunuyoruz.</p>
                      <button class="btn btn-warning btn-lg">Keşfet</button>
                   </div>
                </div>
-               <div class="col-12 col-md-6">
+               <div class="col-12 col-md-5">
                   <div class="special-tastes-img-container">
-                     <img class="spacial-tastes-img" src="assets/images/pasta-6.jpg" alt="">
+                     <img class="special-tastes-img" src="assets/images/pasta-6.jpg" alt="">
                   </div>
                </div>
             </div>
-         </div>
-         <div class="container mt-5 pt-5">
-            <div class="row mb-5">
+        
+        
+            <div class="row my-5">
                <div class="col-12 text-center">
                   <h1 class="header-1 italic-font text-warning special-tastes-title-2">Neden Biz?</h1>
                   <p class=" header-3 text-white text-center">Lezzet yolculuğumuzun rakamlarla ifadesi</p>
@@ -147,17 +393,17 @@
                   </div>
                </div>
             </div>
-         </div>
-         <div class="container mt-5 pt-5">
-            <div class="row align-items-center gy-5">
+       
+      
+            <div class="row my-5">
                <div class="col-12 col-md-6 ">
                   <div class="special-tastes-img-container ">
-                     <img class="spacial-tastes-img" src="assets/images/pasta-5.jpg" alt="">
+                     <img class="special-tastes-img" src="assets/images/pasta-5.jpg" alt="">
                   </div>
                </div>
                <div class="col-12 col-md-6">
-                  <div class="d-flex flex-column  align-items-start gap-4">
-                     <h1 class="italic-font text-warning special-tastes-title header-1">Lezzet Ustalığı</h1>
+                  <div class="d-flex flex-column align-items-end text-end gap-4">
+                     <h1 class="italic-font text-warning special-tastes-title-3 header-1">Lezzet Ustalığı</h1>
                      <p class=" text-white fs-4">Asırlık tariflerimizle harmanlanmış, yöresel malzemelerle hazırlanan otantik tatlar sunuyoruz.</p>
                      <button class="btn btn-warning btn-lg">Keşfet</button>
                   </div>
@@ -167,7 +413,7 @@
       </section>
       <section class="empty-tastes">
          <div class="container">
-            <div class="row">
+            <div class="row ">
                <div class="col d-flex flex-column  align-items-center mt-5 text-dark position-relative z-index-2 text-white">
                   <p class="header-3 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe quisquam animi dignissimos tempora repellendus accusantium aspernatur cumque ad quae iusto quibusdam quos facilis laborum nostrum, repellat, illo est dicta error!</p>
                   <h1 class="italic-font header-1 text-center">Lorem Ipsum</h1>
@@ -254,5 +500,8 @@
             </div>
          </div>
       </footer>
+    
+      <script src="assets/js/bootstrap.bundle.min.js" ></script>
+      <script src="main.js"></script>
    </body>
 </html>
