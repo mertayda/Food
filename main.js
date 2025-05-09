@@ -1,6 +1,16 @@
 const searchButton = document.querySelector(".search-button")
 const formSearch = document.querySelector(".form-search")
 const navLinks = document.querySelector(".nav-links")
+const  navbarCol = document.querySelector(".navbar-collapse")
+const navButton = document.querySelector(".navbar-toggler")
+
+
+
+navButton.addEventListener("click", function(e) {
+    e.preventDefault()
+    navbarCol.classList.toggle("hey")
+})
+
 
 
 document.addEventListener("DOMContentLoaded", function () {
