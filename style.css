@@ -39,26 +39,37 @@ header{
     position: relative;
     overflow: hiddem;
 }
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 1rem;
-    gap: 1rem;
-    position: relative;
-    z-index: 10;
-    background: transparent;
-    color: white;
+
+
+.logo{
+    max-width: 150px;
+    width: 100%;
 }
-.nav-link {
-    color: white !important;
-    font-size: 20px;
-    font-weight: 700;
+
+
+.logo img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
 }
-.navbar-nav {
-    margin-right: 1.3rem;
-    gap: 2rem;
+
+.nav{
+   position: relative;
+    z-index: 1;
 }
+
+.nav-link{
+   color: white; 
+}
+
+.logo{
+    z-index: 9999;
+}
+
+.navbar-nav{
+  z-index: 1;
+}
+
 .food-search{
     position: relative;
     display: flex;
@@ -557,33 +568,9 @@ footer {
     .header-1{
         font-size:3rem;
    }
-    nav{
-        background-color: black;
-        width: 100%;
-   }
-    .nav-item{
-        display: block;
-        width: 100%;
-        text-align: center;
-        padding: 0.5rem 0;
-        color: white;
-        transition: all 0.3s ease;
-   }
-    .navbar-collapse{
-        visibility: hidden;
-        opacity: 0;
-        transform: translateY(-100%);
-   }
-    .navbar-collapse.hey{
-        visibility: visible;
-        opacity: 1;
-        transform: translateY(0);
-        transition: all 0.3s ease;
-   }
-    .nav-item:hover{
-        background-color: #f4b350;
-        color: black;
-   }
+ 
+   
+
     .food-search{
         display: none;
    }
@@ -603,9 +590,7 @@ footer {
         text-align: center;
         align-items: center;
    }
-    .navbar-nav {
-        gap: 0.5rem;
-   }
+  
     .header-content-title {
         font-size: 3.5rem;
    }
