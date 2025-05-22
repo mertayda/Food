@@ -1,0 +1,211 @@
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/all.min.css">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="assets/css/aos.css">
+   </head>
+   
+   <body>
+      <section class="ourMenu bg-black">
+         <div class="container">
+            <nav class="navbar navbar-expand-lg" >
+               <a href="#" class="logo">
+               <img src="assets/images/logo.png" alt="">
+               </a>
+               <button class="navbar-toggler" type="button">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="toggle-menu">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Anasayfa</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link"  aria-current="page" href="#">Menülerimiz</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" aria-current="page">Hakkımızda</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" aria-current="page">İletişim</a>
+                     </li>
+                     <div class="food-search">
+                        <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <form class="form-search">
+                           <input type="search" placeholder="Lezzetler Burda">
+                           <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                     </div>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+      </section>
+      <section class="menuImg">
+         <div class="container">
+            <div class="d-flex justify-content-evenly">
+               <h1 class="menuImg-title">Velora Menü</h1>
+                  <div class=" breadcrumb-container d-flex ">
+                  <nav aria-label="breadcrumb">
+                     <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item"><a href="index.html">Ana Sayfa</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Menü</li>
+                     </ol>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="whole-menu">
+         <div class="container">
+            <div class="row mb-3">
+               <div class="d-flex flex-md-row flex-column justify-content-center  mb-5"> 
+                  <button class="menu-category active" data-category="all">Tüm Menü</button>
+                  <button class="menu-category" data-category="pasta">Makarna</button>
+                  <button class="menu-category" data-category="cheese">Peynirli Makarna</button>
+                  <button class="menu-category" data-category="special">Özel Soslar</button>
+                  <button class="menu-category" data-category="premium">Premium Makarna</button>
+                
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-sm-12 col-md-6 col-xl-3 mb-3 menu-item" data-category="pasta">
+                  <div class="menu-card">
+                     <img src="assets/images/pasta-1.jpg" alt="Classic Spaghetti" class="card-img-top">
+                     <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                           <h5 class="menu-card-title">Classic Spaghetti</h5>
+                           <p class="menu-card-price">$12.99</p>
+                        </div>
+                        <p class="menu-card-text">Ev yapımı domates soslu ve taze fesleğenli geleneksel İtalyan spagettisi</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-sm-12 col-md-6 col-xl-3 mb-3 menu-item" data-category="special">
+                  <div class="menu-card">
+                     <img src="assets/images/small-1.jpg" alt="Classic Spaghetti" class="card-img-top">
+                     <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                           <h5 class="menu-card-title">Penne Arrabbiata</h5>
+                           <p class="menu-card-price">$12.99</p>
+                        </div>
+                        <p class="menu-card-text">Ev yapımı domates soslu ve taze fesleğenli geleneksel İtalyan spagettisi</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-sm-12 col-md-6 col-xl-3 mb-3 menu-item" data-category="cheese">
+                  <div class="menu-card">
+                     <img src="assets/images/pasta-3.jpg" alt="Classic Spaghetti" class="card-img-top">
+                     <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                           <h5 class="menu-card-title">Four Cheese Pasta</h5>
+                           <p class="menu-card-price">$12.99</p>
+                        </div>
+                        <p class="menu-card-text">Ev yapımı domates soslu ve taze fesleğenli geleneksel İtalyan spagettisi</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-sm-12 col-md-6 col-xl-3 mb-3 menu-item"  data-category="pasta">
+                  <div class="menu-card">
+                     <img src="assets/images/small-3.jpg" alt="Classic Spaghetti" class="card-img-top">
+                     <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                           <h5 class="menu-card-title">Chef's Secret</h5>
+                           <p class="menu-card-price">$12.99</p>
+                        </div>
+                        <p class="menu-card-text">Ev yapımı domates soslu ve taze fesleğenli geleneksel İtalyan spagettisi</p>
+                     </div>
+                  </div>
+               </div>
+          
+       
+               <div class="col-sm-12 col-md-6 col-xl-3 mb-3 menu-item" data-category="special">
+                  <div class="menu-card">
+                     <img src="assets/images/pasta-5.jpg" alt="Classic Spaghetti" class="card-img-top">
+                     <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                           <h5 class="menu-card-title">Lobster Linguine</h5>
+                           <p class="menu-card-price">$12.99</p>
+                        </div>
+                        <p class="menu-card-text">Ev yapımı domates soslu ve taze fesleğenli geleneksel İtalyan spagettisi</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-sm-12 col-md-6 col-xl-3 mb-3 menu-item" data-category="special">
+                  <div class="menu-card">
+                     <img src="assets/images/pasta-6.jpg" alt="Classic Spaghetti" class="card-img-top">
+                     <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                           <h5 class="menu-card-title">Tiramisu</h5>
+                           <p class="menu-card-price">$12.99</p>
+                        </div>
+                        <p class="menu-card-text">Ev yapımı domates soslu ve taze fesleğenli geleneksel İtalyan spagettisi</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-sm-12 col-md-6 col-xl-3 mb-3 menu-item"  data-category="premium">
+                  <div class="menu-card">
+                     <img src="assets/images/pasta-4.jpg" alt="Classic Spaghetti" class="card-img-top">
+                     <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                           <h5 class="menu-card-title">Classic Spaghetti</h5>
+                           <p class="menu-card-price">$12.99</p>
+                        </div>
+                        <p class="menu-card-text">Ev yapımı domates soslu ve taze fesleğenli geleneksel İtalyan spagettisi</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-sm-12 col-md-6 col-xl-3 mb-3 menu-item"  data-category="premium">
+                  <div class="menu-card">
+                     <img src="assets/images/pasta-6.jpg" alt="Classic Spaghetti" class="card-img-top">
+                     <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                           <h5 class="menu-card-title">
+                              Gorgonzola Gnocchi
+                           </h5>
+                           <p class="menu-card-price">$12.99</p>
+                        </div>
+                        <p class="menu-card-text">Ev yapımı domates soslu ve taze fesleğenli geleneksel İtalyan spagettisi</p>
+                     </div>
+                  </div>
+               </div>
+            
+         </div>
+         </div>
+      </section>
+   </body>
+   <script>
+         const menuButtons = document.querySelectorAll(".menu-category")
+         const menuItems = document.querySelectorAll(".menu-item")
+            menuButtons.forEach(menuBtn => {
+               menuBtn.addEventListener("click", () => {
+                  const category = menuBtn.getAttribute("data-category")
+                  if(category === "all"){
+                      menuItems.forEach(item => {
+                         item.style.display = "block"
+                      })
+                  }  else{
+                      menuItems.forEach(item => {
+                         if(item.getAttribute("data-category") === category){
+                            item.style.display = "block" 
+                         }else{
+                            item.style.display = "none"
+                         }
+
+                      })
+                  }
+                 
+               })
+            })
+      
+   </script>
+
+</html>
